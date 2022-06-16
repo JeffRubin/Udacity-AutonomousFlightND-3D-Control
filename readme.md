@@ -26,30 +26,30 @@ Note that the green highlight in each figure indicates that the scenario passed.
 ![Scenario 1 - Intro](readmeFigures/scenario1.png "Scenario 1 - Intro")
 
 ## Scenario 2 - Attitude Control
-![Scenario 2 - Attitude Control](readmeFigures\scenario2.png "Scenario 2 - Attitude Control")
+![Scenario 2 - Attitude Control](readmeFigures/scenario2.png "Scenario 2 - Attitude Control")
 
 ## Scenario 3 - Position Control
-![Scenario 3 - Position Control](readmeFigures\scenario3.png "Scenario 3 - Position Control")
+![Scenario 3 - Position Control](readmeFigures/scenario3.png "Scenario 3 - Position Control")
 
 ## Scenario 4 - Nonidealities
-![Scenario 4 - Nonidealities](readmeFigures\scenario4.png "Scenario 4 - Nonidealities")
+![Scenario 4 - Nonidealities](readmeFigures/scenario4.png "Scenario 4 - Nonidealities")
 
 ## Scenario 5 - Trajectory Following - No Velocity Information
 
 ### Top View
-![Scenario 5 - Trajectory Following - No Velocity Information - Top View](readmeFigures\scenario5NoVelocityTopView.png "Scenario 5 - Trajectory Following - No Velocity Information - Top View")
+![Scenario 5 - Trajectory Following - No Velocity Information - Top View](readmeFigures/scenario5NoVelocityTopView.png "Scenario 5 - Trajectory Following - No Velocity Information - Top View")
 
 ### Side View
-![Scenario 5 - Trajectory Following - No Velocity Information - Side View](readmeFigures\scenario5NoVelocitySideView.png "Scenario 5 - Trajectory Following - No Velocity Information - Side View")
+![Scenario 5 - Trajectory Following - No Velocity Information - Side View](readmeFigures/scenario5NoVelocitySideView.png "Scenario 5 - Trajectory Following - No Velocity Information - Side View")
 
 ## Scenario 5 - Trajectory Following - With Velocity Information
 Modified MakePeriodicTrajectory.py to output velocity information by taking the derivative of the provided desired position functions.  Had to recall chain rule...it's been awhile.
 
 ### Top View
-![Scenario 5 - Trajectory Following - With Velocity Information - Top View](readmeFigures\scenario5WithVelocityTopView.png "Scenario 5 - Trajectory Following - With Velocity Information - Top View")
+![Scenario 5 - Trajectory Following - With Velocity Information - Top View](readmeFigures/scenario5WithVelocityTopView.png "Scenario 5 - Trajectory Following - With Velocity Information - Top View")
 
 ### Side View
-![Scenario 5 - Trajectory Following - With Velocity Information - Side View](readmeFigures\scenario5WithVelocitySideView.png "Scenario 5 - Trajectory Following - With Velocity Information - Side View")
+![Scenario 5 - Trajectory Following - With Velocity Information - Side View](readmeFigures/scenario5WithVelocitySideView.png "Scenario 5 - Trajectory Following - With Velocity Information - Side View")
 
 As expected, the trajectory following was significantly better when velocity information was provided since this information was able to be fed into the derivative portions of the PD controllers used for altitude and lateral position control.
 
@@ -61,7 +61,7 @@ Adding feedforward acceleration information to the trajectories could improve tr
 For Scenario 4 - Nonidealities, also tested with a variety of external forces applied.  In these cases, the controls were able to respond to the disturbances caused by the external forces and achieve fairly good tracking.  Although the tracking in these cases did not always achieve the performance thresholds for the non-disturbance cases for this project; perhaps through more control parameter tuning...
 
 ### Scenario 4 - Nonidealities - Up Force Applied For Entire Trajectory
-![Scenario 4 - Nonidealities - Up Force Applied For Entire Trajectory](readmeFigures\scenario4ExternalForcesUp.png "Scenario 4 - Nonidealities - Up Force Applied For Entire Trajectory")
+![Scenario 4 - Nonidealities - Up Force Applied For Entire Trajectory](readmeFigures/scenario4ExternalForcesUp.png "Scenario 4 - Nonidealities - Up Force Applied For Entire Trajectory")
 
 ### Scenario 4 - Nonidealities - Down And Right Forces Applied For Entire Trajectory
-![Scenario 4 - Nonidealities - Down And Right Forces Applied For Entire Trajectory](readmeFigures\scenario4ExternalForcesDownRight.png "Scenario 4 - Nonidealities - Down And Right Forces Applied For Entire Trajectory")
+![Scenario 4 - Nonidealities - Down And Right Forces Applied For Entire Trajectory](readmeFigures/scenario4ExternalForcesDownRight.png "Scenario 4 - Nonidealities - Down And Right Forces Applied For Entire Trajectory")
