@@ -23,7 +23,7 @@ See QuadControl::GenerateMotorCommands() - Lines 60-96
 Note that the green highlight in each figure indicates that the scenario passed.
 
 ## Scenario 1 - Intro
-![Scenario 1 - Intro](readmeFigures\scenario1.png "Scenario 1 - Intro")
+![Scenario 1 - Intro](readmeFigures/scenario1.png "Scenario 1 - Intro")
 
 ## Scenario 2 - Attitude Control
 ![Scenario 2 - Attitude Control](readmeFigures\scenario2.png "Scenario 2 - Attitude Control")
